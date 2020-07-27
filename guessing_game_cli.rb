@@ -12,10 +12,10 @@ def run_guessing_game
   prompt_user
   input = get_input
   if input == rand_num
-    puts "You guessed th correct number!"
+    puts "You guessed the correct number!"
   end
   if input != rand_num
-    puts "Sorry! The computer guessed #{rand_num}"
+    puts "Sorry! The computer guessed #{rand_num}."
   end
   if input == "exit"
     puts "Goodbye!"
