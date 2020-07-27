@@ -9,7 +9,7 @@ end
 
 
 def run_guessing_game
-  rand_num = "#{rand(5) + 1 }
+  rand_num = "#{rand(5) + 1 }"
   prompt_user
   input = get_input
   if input == rand_num
