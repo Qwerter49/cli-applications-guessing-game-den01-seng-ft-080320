@@ -1,3 +1,4 @@
+require 'pry'
 def prompt_user
   puts "Please guess a number between 1 and 6"
 end
@@ -21,5 +22,5 @@ def run_guessing_game
   if input == "exit"
     puts "Goodbye!"
   end
-  
+  binding.pry
 end
